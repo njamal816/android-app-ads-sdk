@@ -24,7 +24,6 @@ public class SecondActivity extends AppCompatActivity {
 
     private void initToolbar() {
         toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
         final ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
